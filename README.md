@@ -9,7 +9,7 @@ In case your enterprise network blocks DoH traffic. You can always fallback to D
 
 ## usage
 
-`curl "http://localhost:3000/?name=schoolyear.nl&type=A&encoder=meme"`
+`curl "http://localhost:3000/?name=schoolyear.nl&type=A&encoder=meme" -o result.png`
 
 take a look at the Cloudflare DoH documentation: https://developers.cloudflare.com/1.1.1.1/encrypted-dns/dns-over-https/make-api-requests/dns-json
 encoders: `plain`, `base64`, `meme` (LSB steganography)
